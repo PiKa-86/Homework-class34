@@ -1,0 +1,62 @@
+{
+  "node": "v14.18.1",
+  "system": {
+    "manufacturer": "Hewlett-Packard",
+    "model": "HP ProBook 430 G2"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-5200U",
+    "speed": 2.2
+  },
+  "memory": "4 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.61.1",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "hdg.live-html-previewer",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "ms-vscode.js-debug-nightly",
+      "nhoizey.gremlins",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.renderIndentGuides": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "eslint.autoFixOnSave": true,
+      "files.autoSave": "onFocusChange",
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all",
+      "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+2021-10-18 09:08:16 info: ----------------------------------------------
+2021-10-18 09:08:16 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:08:16 info: ----------------------------------------------
+2021-10-18 09:08:25 error: *** Unit Test Error Report ***
+
+- giveCompliment should have all TODO comments removed
+- giveCompliment should include a `compliments` array initialized with 10 strings
+  No such array found
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+2021-10-18 09:08:28 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliment' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-10-18 09:08:32 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:17 - Unknown word (Parviz)
+ex1-giveCompliment.js:40:24 - Unknown word (Kazimov)
+
+2021-10-18 09:10:30 info: Disclaimer turned off
+2021-10-18 09:10:49 info: ----------------------------------------------
+2021-10-18 09:10:49 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:10:49 info: ----------------------------------------------
+2021-10-18 09:10:57 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: You are great HackYourFuture!
+
+2021-10-18 09:10:59 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-10-18 09:11:03 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (Parviz)
+ex1-giveCompliment.js:39:24 - Unknown word (Kazimov)
+
+2021-10-18 09:14:22 info: ----------------------------------------------
+2021-10-18 09:14:22 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:14:22 info: ----------------------------------------------
+2021-10-18 09:14:29 info: All unit tests passed.
+2021-10-18 09:14:32 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-10-18 09:14:35 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (Parviz)
+ex1-giveCompliment.js:39:24 - Unknown word (Kazimov)
+
+2021-10-18 09:16:53 info: ----------------------------------------------
+2021-10-18 09:16:53 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:16:53 info: ----------------------------------------------
+2021-10-18 09:17:01 info: All unit tests passed.
+2021-10-18 09:17:07 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (Parviz)
+
+2021-10-18 09:18:20 info: ----------------------------------------------
+2021-10-18 09:18:20 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:18:20 info: ----------------------------------------------
+2021-10-18 09:18:26 info: All unit tests passed.
+2021-10-18 09:18:33 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (parviz)
+
+2021-10-18 09:19:05 info: ----------------------------------------------
+2021-10-18 09:19:05 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-10-18 09:19:05 info: ----------------------------------------------
+2021-10-18 09:19:12 info: All unit tests passed.
+2021-10-18 09:19:18 info: All steps were completed successfully
+2021-10-18 09:40:59 info: ----------------------------------------
+2021-10-18 09:40:59 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-10-18 09:40:59 info: ----------------------------------------
+2021-10-18 09:41:03 info: All unit tests passed.
+2021-10-18 09:41:07 info: All steps were completed successfully
+2021-10-18 09:49:57 info: -------------------------------------------
+2021-10-18 09:49:57 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-10-18 09:49:57 info: -------------------------------------------
+2021-10-18 09:50:01 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a engineer in Amsterdam, married to Alice with 0 kids.
+  Received: You will be engineer in Amsterdam, will be married to Alice with 0 kids.
+
+2021-10-18 09:51:57 info: -------------------------------------------
+2021-10-18 09:51:57 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-10-18 09:51:57 info: -------------------------------------------
+2021-10-18 09:52:01 error: *** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a engineer in Amsterdam, married to Alice with 0 kids.
+  Received: You will be a engineer in Amsterdam, will be married to Alice with 0 kids.
+
+2021-10-18 09:52:37 info: -------------------------------------------
+2021-10-18 09:52:37 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-10-18 09:52:37 info: -------------------------------------------
+2021-10-18 09:52:42 info: All unit tests passed.
+2021-10-18 09:52:46 info: All steps were completed successfully
