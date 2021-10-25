@@ -51,7 +51,6 @@
     "fast-glob": "^3.2.5",
     "html-validate": "^4.9.0",
     "inquirer": "^8.0.0",
-    "jest": "^26.6.3",
     "jsdom": "^16.5.3",
     "lodash": "^4.17.21",
     "lodash.isequal": "^4.5.0",
@@ -66,5 +65,8 @@
     "strip-ansi": "^6.0.0",
     "systeminformation": "^5.6.12",
     "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
