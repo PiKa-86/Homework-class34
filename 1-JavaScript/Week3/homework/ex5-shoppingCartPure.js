@@ -19,9 +19,6 @@ it pure. Do the following:
 function addToShoppingCart(previousShoppingCart, shoppingItem) {
   const shoppingCart = [...previousShoppingCart];
 
-  while (shoppingCart.length > 3) {
-    shoppingCart.shift();
-  }
 
   if (shoppingCart.length < 3) {
     shoppingCart.push(shoppingItem);
