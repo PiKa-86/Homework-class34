@@ -24,11 +24,8 @@ const shoppingCart = ['bananas', 'milk'];
 
 // ! Function to be tested
 function addToShoppingCart(shoppingItem) {
-  while (shoppingCart.length > 3) {
-    shoppingCart.shift();
-  }
-
-  if (arguments.length === 0) {
+  
+  if (shoppingItem === undefined) {
     const itemsList = shoppingCart.join(', ');
     return `You bought ${itemsList}!`;
   } else {
